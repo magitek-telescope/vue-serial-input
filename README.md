@@ -29,6 +29,14 @@ export default {
 </script>
 ```
 
+## Contributing
+
+```bash
+$ yarn # Install deps
+$ yarn serve # Launch development server
+$ yarn test:unit # Run unit test with jest
+```
+
 ## Demo
 
 [https://potato4d.github.io/vue-serial-input/](https://potato4d.github.io/vue-serial-input/)
