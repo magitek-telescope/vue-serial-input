@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import DevelopApp from './develop-app.vue'
+import DevelopApp from './dev/develop-app.vue'
 
 Vue.config.productionTip = false
 
