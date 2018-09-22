@@ -7,6 +7,7 @@ import Vue from 'vue'
 import { convertToSerial } from '../utils/converter'
 
 export default Vue.extend({
+  name: 'vue-serial-input',
   props: {
     value: String
   },
