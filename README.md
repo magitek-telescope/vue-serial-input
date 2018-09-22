@@ -1,21 +1,36 @@
 # vue-serial-input
 
-## Project setup
-```
-yarn install
+Simple serialcode input form for Vue.js.
+
+[![Image from Gyazo](https://i.gyazo.com/a6499864213fc4b0811ed00ac6d3c667.gif)](https://gyazo.com/a6499864213fc4b0811ed00ac6d3c667)
+
+## Installation
+
+```bash
+$ yarn add vue-serial-input # or npm install -S
 ```
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
+## Usage
+
+```html
+<template>
+  <vue-serial-input v-model="val" />
+</template>
+
+<script>
+import VueSerialInput from 'vue-serial-input'
+export default {
+  components: {
+    VueSerialInput
+  }
+}
+</script>
 ```
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+## Demo
 
-### Lints and fixes files
-```
-yarn run lint
-```
+[https://potato4d.github.io/vue-serial-input/](https://potato4d.github.io/vue-serial-input/)
+
+## LICENSE
+
+MIT
