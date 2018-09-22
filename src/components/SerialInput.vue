@@ -12,8 +12,10 @@ export default Vue.extend({
     value: String
   },
   computed: {
-    formattedValue() : string {
-      return this.value.indexOf('-') + 1 ? this.value : convertToSerial(this.value)
+    formattedValue(): string {
+      return this.value.indexOf('-') + 1
+        ? this.value
+        : convertToSerial(this.value)
     }
   },
   methods: {
