@@ -1,6 +1,6 @@
 {
   "name": "vue-serial-input",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "scripts": {
     "serve": "vue-cli-service serve ./src/develop-entry.ts",
     "build": "npm-run-all -p build:*",
