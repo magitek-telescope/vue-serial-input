@@ -1,5 +1,5 @@
 <template>
-  <input class="vue-serial-input" type="text" :value="value" @input="updateVal" />
+  <input class="vue-serial-input" type="text" :value="formattedValue" @input="updateValue" />
 </template>
 
 <script lang="ts">
@@ -11,10 +11,15 @@ export default Vue.extend({
   props: {
     value: String
   },
+  computed: {
+    formattedValue() : string {
+      return this.value.indexOf('-') + 1 ? this.value : convertToSerial(this.value)
+    }
+  },
   methods: {
-    updateVal(event: Event) {
+    updateValue(event: Event) {
       const target = event.target as HTMLInputElement
-      this.$emit('input', convertToSerial(target.value))
+      this.$emit('input', convertToSerial(target.value.replace(/-/g, '')))
     }
   }
 })
