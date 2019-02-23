@@ -720,7 +720,7 @@
     "@types/express-serve-static-core" "*"
     "@types/serve-static" "*"
 
-"@types/jest@^23.1.4":
+"@types/jest@23.3.2":
   version "23.3.2"
   resolved "https://registry.yarnpkg.com/@types/jest/-/jest-23.3.2.tgz#07b90f6adf75d42c34230c026a2529e56c249dbb"
 
@@ -793,7 +793,7 @@
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/@vue/cli-overlay/-/cli-overlay-3.0.2.tgz#18411420798135295fe80523579b22e4c6bb3d3b"
 
-"@vue/cli-plugin-babel@^3.0.0":
+"@vue/cli-plugin-babel@3.0.3":
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/@vue/cli-plugin-babel/-/cli-plugin-babel-3.0.3.tgz#967ef902553c1c6152ef6330cb05816a730dfdb5"
   dependencies:
@@ -801,7 +801,7 @@
     "@vue/babel-preset-app" "^3.0.1"
     babel-loader "^8.0.0-0"
 
-"@vue/cli-plugin-typescript@^3.0.0":
+"@vue/cli-plugin-typescript@3.0.3":
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/@vue/cli-plugin-typescript/-/cli-plugin-typescript-3.0.3.tgz#6672f85cc50dcc2dd617fa674d53036d70eae411"
   dependencies:
@@ -812,7 +812,7 @@
     ts-loader "^4.4.2"
     tslint "^5.10.0"
 
-"@vue/cli-plugin-unit-jest@^3.0.3":
+"@vue/cli-plugin-unit-jest@3.0.3":
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/@vue/cli-plugin-unit-jest/-/cli-plugin-unit-jest-3.0.3.tgz#4b2dde19edcd09d275e11cc193dfc8fdf167896c"
   dependencies:
@@ -824,7 +824,7 @@
     jest-transform-stub "^1.0.0"
     vue-jest "^2.6.0"
 
-"@vue/cli-service@^3.0.0":
+"@vue/cli-service@3.0.3":
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/@vue/cli-service/-/cli-service-3.0.3.tgz#dd91f2ee40922001559601d458209e4398887337"
   dependencies:
@@ -931,7 +931,7 @@
     vue-cli-plugin-apollo "^0.16.3"
     watch "^1.0.2"
 
-"@vue/cli@^3.0.3":
+"@vue/cli@3.0.3":
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/@vue/cli/-/cli-3.0.3.tgz#d1c181221ad68d566ac236fe398385cef06b5cf3"
   dependencies:
@@ -984,7 +984,7 @@
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@vue/preload-webpack-plugin/-/preload-webpack-plugin-1.1.0.tgz#d768dba004261c029b53a77c5ea2d5f9ee4f3cce"
 
-"@vue/test-utils@^1.0.0-beta.20":
+"@vue/test-utils@1.0.0-beta.25":
   version "1.0.0-beta.25"
   resolved "https://registry.yarnpkg.com/@vue/test-utils/-/test-utils-1.0.0-beta.25.tgz#4703076de3076bac42cdd242cd53e6fb8752ed8c"
   dependencies:
@@ -2424,7 +2424,7 @@ code-point-at@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
 
-codecov@^3.1.0:
+codecov@3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/codecov/-/codecov-3.1.0.tgz#340bd968d361f256976b5af782dd8ba9f82bc849"
   dependencies:
@@ -4300,7 +4300,7 @@ getpass@^0.1.1:
   dependencies:
     assert-plus "^1.0.0"
 
-gh-pages@^2.0.0:
+gh-pages@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/gh-pages/-/gh-pages-2.0.0.tgz#6615f6cb2abc0bcf22668e15b13afc5e304b9d93"
   dependencies:
@@ -6676,7 +6676,7 @@ npm-packlist@^1.1.6:
     ignore-walk "^3.0.1"
     npm-bundled "^1.0.1"
 
-npm-run-all@^4.1.3:
+npm-run-all@4.1.3:
   version "4.1.3"
   resolved "https://registry.yarnpkg.com/npm-run-all/-/npm-run-all-4.1.3.tgz#49f15b55a66bb4101664ce270cb18e7103f8f185"
   dependencies:
@@ -7478,7 +7478,7 @@ prettier@1.13.7:
   version "1.13.7"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.13.7.tgz#850f3b8af784a49a6ea2d2eaa7ed1428a34b7281"
 
-prettier@^1.14.3:
+prettier@1.14.3:
   version "1.14.3"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.14.3.tgz#90238dd4c0684b7edce5f83b0fb7328e48bd0895"
 
@@ -8512,7 +8512,7 @@ stackframe@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/stackframe/-/stackframe-1.0.4.tgz#357b24a992f9427cba6b545d96a14ed2cbca187b"
 
-standard-version@^4.4.0:
+standard-version@4.4.0:
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/standard-version/-/standard-version-4.4.0.tgz#99de7a0709e6cafddf9c5984dd342c8cfe66e79f"
   dependencies:
@@ -8960,7 +8960,7 @@ tryer@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/tryer/-/tryer-1.0.1.tgz#f2c85406800b9b0f74c9f7465b81eaad241252f8"
 
-ts-jest@^23.0.0:
+ts-jest@23.10.1:
   version "23.10.1"
   resolved "https://registry.yarnpkg.com/ts-jest/-/ts-jest-23.10.1.tgz#ad0196f7b81f08888897004d9ed870c1a901511a"
   dependencies:
@@ -9063,7 +9063,7 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
-typescript@^3.0.0:
+typescript@3.0.3:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.0.3.tgz#4853b3e275ecdaa27f78fda46dc273a7eb7fc1c8"
 
@@ -9395,7 +9395,7 @@ vue-style-loader@^4.1.0:
     hash-sum "^1.0.2"
     loader-utils "^1.0.2"
 
-vue-template-compiler@^2.5.17:
+vue-template-compiler@2.5.17:
   version "2.5.17"
   resolved "https://registry.yarnpkg.com/vue-template-compiler/-/vue-template-compiler-2.5.17.tgz#52a4a078c327deb937482a509ae85c06f346c3cb"
   dependencies:
